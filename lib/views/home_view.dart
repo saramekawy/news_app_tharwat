@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_tharwat/widgets/category_card.dart';
+
+import '../widgets/categories_list_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -25,14 +26,9 @@ class HomeView extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: const Column(
-        children: [
-          Row(
-            children: [
-              CategoryCard(),
-            ],
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 5),
+        child: CategoriesListVIew(),
       ),
     );
   }
