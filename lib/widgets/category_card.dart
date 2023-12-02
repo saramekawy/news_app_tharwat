@@ -17,9 +17,10 @@ class CategoryCard extends StatelessWidget {
               fit: BoxFit.cover)),
       child: const Center(
           child: Text(
-        "Technology",
-        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-      )),
+            "Technology",
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          )),
     );
   }
 }
+
